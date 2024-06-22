@@ -1,8 +1,8 @@
 import { Link, useNavigate } from 
 "react-router-dom";
-import React, { ChangeEvent, useState } from "react";
+import  { ChangeEvent, useState } from "react";
 import axios from "axios"
-import {SigninInput, SignupInput} from "@the_adi/medium-common"
+import { SignupInput} from "@the_adi/medium-common"
 import { BACKEND_URL } from "../config";
 export const Auth = ( {type} : {type: "signup" |"signin" }) => {
 
